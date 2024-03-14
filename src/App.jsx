@@ -15,26 +15,8 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   const [user,setLoginUser] = useState({})
-  // const [user,setLoginUser] = useState('')
-  // const str = 'hello world'
-  // localStorage.setItem('hello',str)
-  // localStorage.removeItem('hello')
-  // if(localStorage.getItem('hello'))
-  // {
-  //   console.log("user exists")
-  // }
-  // console.log(localStorage.getItem('hello'))
-  // console.log(user)
   const local_user = localStorage.getItem('user')
-  console.log(local_user)
-  // let local_user_copy = local_user
-  // let str_name = ''
-  // let str_email = ''
-  // if(local_user != null)
-  // {
-  //   const parsed_user = JSON.parse(local_user_copy)
-  //   str_name = parsed_user.name
-  //   str_email = parsed_user.email
+  // console.log(local_user)
   // }
   return (
     <>
