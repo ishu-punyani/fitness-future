@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Home/Navbar'
-import ProductHome from './Producthome'
+import ProductHome from './ProductHome'
 import './products.css'
 import Cart from './Cart'
 import Footer from '../Home/Footer'
