@@ -3,9 +3,9 @@ import './Navbar.css'
 import { useNavigate,Link } from 'react-router-dom'
 
 function Navbar() {
-  const local_user = localStorage.getItem('user')
-  const parsed_user = JSON.parse(local_user)
-  let name = parsed_user.name
+  // const local_user = localStorage.getItem('user')
+  // const parsed_user = JSON.parse(local_user)
+  // let name = parsed_user.name
   const navigate = useNavigate()
   const logout = () =>{
     console.log('logout')
@@ -26,7 +26,7 @@ function Navbar() {
             <Link to='/'>
             <img src="/fitness future logo.png" alt="Gym-logo" />
             </Link>
-            <span className='home-welcome'>Hi {name}!</span>
+            <span className='home-welcome'>Hi</span>
           </div>
           <div className='anchor'>
             <span className='navbar-btn' onClick={()=>navigate('/')}>Home</span>
