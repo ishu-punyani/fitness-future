@@ -8,10 +8,10 @@ import { CartProvider } from 'react-use-cart'
 
 
 function Products() {
-  const local_user = localStorage.getItem('user')
-  const parsed_user = JSON.parse(local_user)
-  let username = parsed_user.name
-  let user_email = parsed_user.email
+  // const local_user = localStorage.getItem('user')
+  // const parsed_user = JSON.parse(local_user)
+  // let username = parsed_user.name
+  // let user_email = parsed_user.email
 
   return (
     <div className='products'>
@@ -19,7 +19,8 @@ function Products() {
       <br /><br /><br />
       <CartProvider>
         <ProductHome/>
-        <Cart username={username} user_email={user_email}/>
+        <Cart />
+        {/* <Cart username={username} user_email={user_email}/> */}
       </CartProvider>
 
       <Footer/>

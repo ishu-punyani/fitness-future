@@ -29,8 +29,8 @@ function Cart({username, user_email}) {
                     'Item Price: ' + element.itemTotal + '\n'
             });
             let order = {
-                name : username,
-                email : user_email,
+                // name : username,
+                // email : user_email,
                 orderItems: order_str,
                 totalItems: totalItems,
                 totalPrice: cartTotal

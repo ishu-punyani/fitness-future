@@ -29,33 +29,39 @@ function App() {
           }/> */}
           <Route exact path='/' element = 
           {
-            local_user ? 
-            <Home /> : <Login/>
+            // local_user ? 
+            <Home /> 
+            // : <Login/>
           }/>
           <Route exact path='/gallery' element = 
           {
-            local_user ? 
-            <Gallery /> : <Login/>
+            // local_user ? 
+            <Gallery /> 
+            // : <Login/>
           }/>
           <Route exact path='/contact' element = 
           {
-            local_user ? 
-            <Contact /> : <Login/>
+            // local_user ? 
+            <Contact />
+            //  : <Login/>
           }/>
           <Route exact path='/products' element = 
           {
-            local_user ? 
-            <Products /> : <Login/>
+            // local_user ? 
+            <Products /> 
+            // : <Login/>
           }/>
           <Route exact path='/bmi' element = 
           {
-            local_user ? 
-            <BMI /> : <Login/>
+            // local_user ? 
+            <BMI /> 
+            // : <Login/>
           }/>
           <Route exact path='/dietchart' element = 
           {
-            local_user ? 
-            <DietChart /> : <Login/>
+            // local_user ? 
+            <DietChart /> 
+            // : <Login/>
           }/>
           <Route path='/order-placed' element = {<OrderPlaced />}/>
           {/* <Route path='/login' element = {<Login/>}/> */}
